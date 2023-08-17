@@ -1,0 +1,96 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .head_slider{
+    display: flex;
+    justify-content: space-between;
+    
+    color: #636363;
+    
+    
+    font-size: 100%;
+    
+    width: 98%;
+   
+  }
+  .carousel {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .carousel-frame{
+    width: 100%;
+    overflow: hidden;
+    margin: 0 16px;
+  }
+  
+  .carousel-track {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .carousel-item {
+    flex: 0 0 auto;
+    width: calc(100% / 4); /* Show 4 books per slide */
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  /* ... Existing CSS ... */
+
+  .prev,
+  .next {
+    position: relative;
+    
+    font-size: 24px;
+    background: none;
+    
+    cursor: pointer;
+  }
+
+/* ... Remaining CSS ... */
+
+  /* Style for the book items */
+  .item {
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  .img_box img {
+    max-width: 200px;
+    height: 200px;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .name_box h4 {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .rating_box {
+    font-size: 16px;
+    color: #f39c12;
+  }
+  
+  .year_box {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  

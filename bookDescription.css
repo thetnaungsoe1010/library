@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+/* ... Existing CSS ... */
+
+.book-card {
+    min-height: 80vh;
+    
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(128, 128, 128, 0.2);
+    background-color: white;
+    margin: 20px;
+}
+
+.card-preview {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 15px;
+    flex: 1;
+    margin-right: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-preview h2 {
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 10px;
+}
+
+.card-preview p {
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.5;
+}
+
+.card-img {
+    width: 300px;
+    border-radius: 15px;
+}
+
+.card-description {
+    flex: 2;
+    padding: 20px;
+}
+
+/* ... Remaining CSS ... */
+
+.card-title {
+    font-family: 'Roboto Slab', serif;
+}
+
+.card-author,
+.card-genre,
+.card-page-count,
+.card-language {
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.5;
+}
+
+.card-btn {
+    background-color: #000000;
+    border: 1px solid black;
+    height: 50px;
+    display: inline-block;
+    text-decoration: none;
+    color: aliceblue;
+    line-height: 50px;
+    padding: 0 20px;
+    border-radius: 8px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 20px;
+}
+/* ... Existing CSS ... */
+
+.card-preview {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-right: 1px solid #ccc;
+}
+
+.card-preview h2 {
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 10px;
+}
+
+.card-preview p {
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.5;
+}
